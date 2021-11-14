@@ -1,0 +1,16 @@
+canvas{
+    animation-name: pre;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pre{
+    from{
+        box-shadow: 1px 1px 20px blue;
+        border: blueviolet solid 5px;
+    }
+    to{
+        box-shadow: 1px 1px 50px greenyellow;
+        border: palegreen dashed 12.5px;
+    }
+}
